@@ -1,6 +1,6 @@
 import {React , useContext , useState} from 'react'
 import { AuthContext } from '../context/Authprovider';
-import ReassineTask from '../components/Alart/reassineTask';
+import ReassineTask from '../components/Alart/ReassineTask';
 
 const RejectTaskList = () => {
     const [allData] = useContext(AuthContext);
@@ -46,7 +46,7 @@ const RejectTaskList = () => {
         <ReassineTask 
             currTask={selectedTask}
             
-            onReassign={(task) => {
+            onReassign={() => {
             // console.log("Reassign:", task);
             setSelectedTask(null);
             }}
