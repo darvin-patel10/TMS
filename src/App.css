@@ -1,0 +1,23 @@
+body{
+ background-color: black;
+ color: aliceblue;
+}
+
+/* Hide scrollbar */
+#taskCard::-webkit-scrollbar {
+  display: none;
+}
+
+#taskCard {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+#taskList::-webkit-scrollbar {
+  display: none;
+}
+
+#taskList{
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
