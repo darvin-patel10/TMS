@@ -1,6 +1,6 @@
 import {React , useContext , useState} from 'react'
 import { AuthContext } from '../context/Authprovider';
-import ReassineTask from '../components/Alart/reassineTask';
+import ReassineTask from '../components/Alart/ReassineTask';
 
 const RejectTaskList = () => {
     const [allData] = useContext(AuthContext);
