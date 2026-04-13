@@ -2,11 +2,11 @@ import { useContext, useEffect, useState } from 'react'
 import './App.css'
 import Login from './components/Auth/Login'
 import { AuthContext } from './context/Authprovider'
-import EmployeeDashboard from './components/Dashboard/employeeDashboard'
 import { useNavigate, Route, Routes } from 'react-router-dom'
 import AddNewEmployee from './components/pages/AddNewEmployee'
-import AdminDashboard from './components/Dashboard/adminDashboard'
 import EditEmployee from './components/pages/EditEmployee'
+import EmployeeDashboard from './components/Dashboard/employeeDashboard'
+import AdminDashboard from './components/Dashboard/adminDashboard'
 
 function App() {
 
